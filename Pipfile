@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+rich = "*"
+click = "*"
+requests = "*"
+
+[dev-packages]
+flake8 = "*"
+mypy = "*"
+black = "*"
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+twitch = "python -m src"
